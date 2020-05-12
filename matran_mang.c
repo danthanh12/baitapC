@@ -6,19 +6,19 @@ void bieuDienMaTran(int arr[], int row, int col);
 
 int main()
 {
-	// begin: get row and column size from user input
+	/* begin: get row and column size from user input */
 	int row, col ;
 	printf("Nhap so luong hang: ");
 	scanf("%d", &row);
 	printf("Nhap so luong cot: ");
 	scanf("%d", &col);
-	// end: get row and column size from user input
+	/* end: get row and column size from user input */
 
-	// declare number of all number in matrix
+	/* declare number of all number in matrix */
 	int size = row * col;
 	int *arr;
 
-	// dynamic allocate array with size =  row * col
+	/* dynamic allocate array with size =  row * col */
 	arr=(int *)malloc(size*sizeof(int));
 
 	nhapMaTran(arr, row, col);
