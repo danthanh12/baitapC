@@ -7,7 +7,7 @@ void bieuDienMaTran(int arr[], int row, int col);
 int main()
 {
 	/* begin: get row and column size from user input */
-	int row, col ;
+	int row, col;
 	printf("Nhap so luong hang: ");
 	scanf("%d", &row);
 	printf("Nhap so luong cot: ");
